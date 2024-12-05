@@ -14,13 +14,7 @@ button {
     cursor: pointer;
 }
 /* #region Header */
-.header-page {
-
-}
-
-.nav-page {
-
-}
+ 
 .logo {
     font-family: "Raleway", sans-seriffont-weight: 700;
     font-size: 18px;
@@ -31,11 +25,6 @@ button {
 }
 .logo-style {
     color: #2e2f42;
-}
-.nav-list {
-}
-.nav-item {
-
 }
 .nav-item-link { 
     font-weight: 500;
@@ -75,7 +64,6 @@ button {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 .hero-btn {
@@ -92,7 +80,32 @@ button {
 } 
 /* #endregion */
 
-/* #region Footer*/
+/* #region Benefits*/
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* #endregion */
+
+ /* #region Footer*/
 .footer-page {
     background-color: #2e2f42;
 }
@@ -107,55 +120,3 @@ button {
     color: #f4f4fd;
 }
 /* #endregion */
-
-
-/* 
-.link {
-    color: #434455;
-}
-h1 {
-    text-align: center;
-    color:white;
-    background-color:#2E2F42;
-    font-size: 56px;
-}
-.web-studio {
-    line-height: 24px;
-
-}
-h2 {
-    text-align: center;
-    font-size:36px;
-    color:#2E2F42
-}
-h3 {
-    font-size: 20px;
-    color:#2E2F42
-}
-p {
-    font-size: 16px;
-    color: #434455;
-}
-.page-nav {
-    background-color:#F4F4FD;
-}
-button {
-    text-align: center;
-    color:white;
-    background-color:#4D5AE5;
-    cursor: pointer;
-}
-.footer-page  {
-    color:#F4F4FD;
-    background-color: #2E2F42;
-}
-.link-item:hover {
-    color:brown;
-}
-.link-item:focus {
-    color:brown;
-}
-.page {
-    color: whitesmoke;
-    font-size: 18px;
-}
