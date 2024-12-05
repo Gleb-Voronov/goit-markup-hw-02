@@ -97,7 +97,7 @@ button {
 
 /* #region Benefits*/
 
-.team-title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -105,9 +105,11 @@ button {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
-
+.team-list-item {
+    background-color: #FFFFFF
+}
 h3 {
     font-weight: 500;
     font-size: 20px;
