@@ -1,5 +1,7 @@
 body {
-    font-family:"Roboto", "Raleway", serif;
+    font-family:"Roboto", sans-serif;
+    color: #434455
+    background-color: #FFFFFF;
 }
 
 a {
@@ -16,7 +18,8 @@ button {
 /* #region Header */
  
 .logo {
-    font-family: "Raleway", sans-seriffont-weight: 700;
+    font-family: "Raleway", sans-serif
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -45,7 +48,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .addr-item-link:hover,
 .addr-item-link:focus {
@@ -64,14 +66,14 @@ button {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #fff;
+    text-align: center;
 }
 .hero-btn {
+    font-family: "Roboto", sans-serif
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
     background-color: #4d5ae5;
 }
 .hero-btn:hover,
@@ -81,11 +83,13 @@ button {
 /* #endregion */
 
 /* #region Benefits*/
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
 }
 
@@ -96,12 +100,17 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-p {
+.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+}
+.section {
+    background-color: #F4F4FD
+}
+.benef-list {
+    background-color: #FFFFFF
 }
 /* #endregion */
 
